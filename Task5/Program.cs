@@ -1,0 +1,10 @@
+﻿int a,b,c;
+System.Console.Write($"x = ");
+a=Convert.ToInt32(Console.ReadLine());
+System.Console.Write($"y = ");
+b=Convert.ToInt32(Console.ReadLine());
+c=a;
+a=b;
+b=c;
+System.Console.WriteLine($"x = {a}");
+System.Console.WriteLine($"y = {b}");
